@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 70% 98%;
+    --foreground: 20 10% 15%;
+
+    --card: 40 70% 98%;
+    --card-foreground: 20 10% 15%;
+
+    --popover: 40 70% 98%;
+    --popover-foreground: 20 10% 15%;
+
+    --primary: 30 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 40 76% 83%;
+    --secondary-foreground: 24 10% 10%;
+
+    --muted: 40 30% 96%;
+    --muted-foreground: 20 10% 40%;
+
+    --accent: 40 76% 83%;
+    --accent-foreground: 24 10% 10%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 20 10% 90%;
+    --input: 20 10% 90%;
+    --ring: 30 100% 50%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 20 10% 10%;
+    --foreground: 40 70% 98%;
+
+    --card: 20 10% 12%;
+    --card-foreground: 40 70% 98%;
+
+    --popover: 20 10% 12%;
+    --popover-foreground: 40 70% 98%;
+
+    --primary: 30 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 40 30% 30%;
+    --secondary-foreground: 40 70% 98%;
+
+    --muted: 20 10% 20%;
+    --muted-foreground: 40 30% 70%;
+
+    --accent: 40 30% 30%;
+    --accent-foreground: 40 70% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 20 10% 30%;
+    --input: 20 10% 30%;
+    --ring: 30 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom styles for SRIT Intern Portal */
+.srit-gradient {
+  background: linear-gradient(135deg, #ff7a00 0%, #f5deb3 100%);
+}
+
+.srit-card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.srit-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(255, 122, 0, 0.1), 0 8px 10px -6px rgba(255, 122, 0, 0.1);
+}
+
+.srit-border-gradient {
+  position: relative;
+  border: 1px solid transparent;
+  background-clip: padding-box;
+}
+
+.srit-border-gradient::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: -1px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, #ff7a00 0%, #f5deb3 100%);
+  z-index: -1;
+}
+

@@ -50,3 +50,7 @@ The application supports role-based access control with Admin and Student roles.
 - JWT-based authentication for secure access
 - Middleware used for role-based authorization
 
+## Welocome-Page
+<img width="1061" height="510" alt="Welcome_PageScreenshot 2026-03-01 173609" src="https://github.com/user-attachments/assets/14681abb-b926-48d1-8a94-428542780718" />
+
+

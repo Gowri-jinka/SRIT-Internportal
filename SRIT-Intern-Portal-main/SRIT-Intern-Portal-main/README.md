@@ -53,4 +53,15 @@ The application supports role-based access control with Admin and Student roles.
 ## Welocome-Page
 <img width="1061" height="510" alt="Welcome_PageScreenshot 2026-03-01 173609" src="https://github.com/user-attachments/assets/14681abb-b926-48d1-8a94-428542780718" />
 
+## Registration-Page
+<img width="1015" height="507" alt="Registation_Page" src="https://github.com/user-attachments/assets/a09a578d-c183-4718-85e9-fdd8ee2e3b47" />
+
+## Login-Page
+<img width="1024" height="504" alt="Login_Page" src="https://github.com/user-attachments/assets/20f8abf2-e9ae-46f3-a77e-59bdb8adf02e" />
+
+## Home-Page
+<img width="1063" height="501" alt="Home_Page" src="https://github.com/user-attachments/assets/340ae103-b5cf-42bb-b56b-b77b85f83b70" />
+
+
+
 

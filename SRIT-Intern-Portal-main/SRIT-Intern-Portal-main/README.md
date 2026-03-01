@@ -62,6 +62,14 @@ The application supports role-based access control with Admin and Student roles.
 ## Home-Page
 <img width="1063" height="501" alt="Home_Page" src="https://github.com/user-attachments/assets/340ae103-b5cf-42bb-b56b-b77b85f83b70" />
 
+## Job and Internships
+<img width="1058" height="499" alt="Jobs and Internship_Page" src="https://github.com/user-attachments/assets/07cf34a5-79e2-460f-babe-231b5c256449" />
+
+## Placement Resource
+<img width="1057" height="504" alt="Screenshot 2026-03-01 174114" src="https://github.com/user-attachments/assets/b2dbfdd9-817d-4733-83c9-fff037c0099b" />
+
+
+
 
 
 

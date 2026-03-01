@@ -3,8 +3,9 @@
 -- Project Overview
 Intern Portal is a backend-driven web application developed to help students explore and apply for verified internships easily. The platform provides a secure and organized system where students can register, log in, and apply for internships based on their branch and eligibility criteria.
 
-The application supports role-based access control with Admin and Student roles.
+Demo Video: https://drive.google.com/file/d/1DpLvzuGhglYkaKCwdrEETQvT9yxaV43Y/view?usp=sharing
 
+The application supports role-based access control with Admin and Student roles.
 
 -- Features
 - Secure User Registration & Login
